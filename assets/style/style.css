@@ -17,6 +17,8 @@ body{
     height: 400px;
     width: 500px;
     background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .image_card{
@@ -28,4 +30,29 @@ body{
 .text_card{
     flex: 1;
     padding: 32px;
+}
+
+.little_title,
+.description,
+.little_price,
+.add_cart{
+    color:  hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.little_title{   
+    text-transform: uppercase; 
+}
+
+.title{
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+
+.description{
+    margin-top: 15px;
 }
