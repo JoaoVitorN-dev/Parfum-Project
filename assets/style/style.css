@@ -1,18 +1,18 @@
-body{
+body {
     display: flex;
     margin: 0px;
 }
 
-.container{
+.container {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color:  hsl(30, 38%, 92%);
+    background-color: hsl(30, 38%, 92%);
     justify-content: center;
     align-items: center;
 }
 
-.card_container{
+.card_container {
     display: flex;
     height: 400px;
     width: 500px;
@@ -21,13 +21,13 @@ body{
     overflow: hidden;
 }
 
-.image_card{
+.image_card {
     flex: 1;
     background-image: url('../images/image-product-desktop.jpg');
     background-size: cover;
 }
 
-.text_card{
+.text_card {
     flex: 1;
     padding: 32px;
 }
