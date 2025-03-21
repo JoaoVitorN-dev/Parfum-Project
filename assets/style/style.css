@@ -35,9 +35,9 @@ body {
 .little_title,
 .description,
 .little_price,
-.add_cart{
+.btn{
     color:  hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Montserrat";
     font-weight: 500;
 }
@@ -55,4 +55,48 @@ body {
 
 .description{
     margin-top: 15px;
+}
+
+.prices{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.big_price{
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+
+.little_price{
+    margin-left: 18px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.btn{
+    height: 43px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.btn > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    gap: 10px;
+    font-weight: 700; 
+}
+
+.btn > button > img{
+    position: static;
+    width: auto;
+    height: auto;
 }
