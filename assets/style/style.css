@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -10,26 +11,26 @@ body {
     background-color: hsl(30, 38%, 92%);
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .card_container {
     display: flex;
-    height: 400px;
-    width: 500px;
+    width: 510px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .image_card {
-    flex: 1;
+    flex: 1.2;
     background-image: url('../images/image-product-desktop.jpg');
     background-size: cover;
 }
 
 .text_card {
     flex: 1;
-    padding: 32px;
+    padding: 30px;
 }
 
 .little_title,
@@ -43,22 +44,24 @@ body {
 }
 
 .little_title{   
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .title{
     font-family: "Fraunces";
     font-weight: 700;
     color: hsl(212, 21%, 14%);
+    line-height: 1;
 }
 
 
 .description{
     margin-top: 15px;
+    line-height: 1.7;
 }
 
 .prices{
-    margin: 15px 0px;
+    margin: 20px 0px;
     display: flex;
     align-items: center;
 }
@@ -92,11 +95,15 @@ body {
     background-color: hsl(158, 36%, 37%);
     border: none;
     gap: 10px;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .btn > button > img{
     position: static;
     width: auto;
     height: auto;
+}
+
+.btn > button:hover{
+    cursor: pointer;
 }
