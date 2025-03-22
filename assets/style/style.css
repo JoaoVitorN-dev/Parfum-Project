@@ -45,6 +45,7 @@ body {
 
 .little_title{   
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .title{
